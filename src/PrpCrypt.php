@@ -8,6 +8,7 @@
 
 namespace Leto\MiniProgramAES;
 
+use Exception;
 
 class PrpCrypt
 {
@@ -30,7 +31,7 @@ class PrpCrypt
     {
 
         try {
-            $decrypted = base64_encode(openssl_decrypt($aesCipher, "AES-128-CBC", $this->key, OPENSSL_RAW_DATA, $aesIV));
+            $decrypted = openssl_decrypt($aesCipher, "AES-128-CBC", $this->key, OPENSSL_RAW_DATA, $aesIV);
         } catch (Exception $e) {
             return [ErrorCode::$IllegalBuffer, null];
         }
