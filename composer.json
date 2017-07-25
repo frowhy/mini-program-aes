@@ -3,6 +3,7 @@
   "description": "PHP 7.1 微信小程序加密解密算法",
   "type": "library",
   "license": "apache",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "付广辉",
