@@ -1,0 +1,17 @@
+{
+  "name": "frowhy/mini-program-aes",
+  "description": "PHP 7.1 微信小程序加密解密算法",
+  "type": "library,",
+  "license": "apache",
+  "authors": [
+    {
+      "name": "付广辉",
+      "email": "frowhy@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Leto\\MiniProgramAES\\": "src/"
+    }
+  }
+}
