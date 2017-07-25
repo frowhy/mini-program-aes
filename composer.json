@@ -1,7 +1,7 @@
 {
   "name": "frowhy/mini-program-aes",
   "description": "PHP 7.1 微信小程序加密解密算法",
-  "type": "library,",
+  "type": "library",
   "license": "apache",
   "authors": [
     {
